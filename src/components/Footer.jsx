@@ -29,7 +29,7 @@ const Footer = () => {
 				</div>
 			</div>
 
-			<div className="flex flex-row gap-4 items-start justify-between w-full mb-10">
+			<div className="flex flex-row items-start justify-between w-full mb-10">
 				<div className="flex flex-col gap-5">
 					<div className="font-roboto font-bold text-slate-500 text-sm">
 						Get In Touch

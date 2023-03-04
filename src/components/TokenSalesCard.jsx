@@ -1,4 +1,5 @@
 import React from "react";
+import { ClockIcon } from "@heroicons/react/24/solid";
 
 import { BuyButton } from "./index";
 
@@ -13,7 +14,8 @@ const TokenSalesCard = () => {
 			</div>
 			<div className="items-center flex flex-col gap-2">
 				<BuyButton />
-				<div className="font-roboto text-sm text-gray-400 text-center ">
+				<div className="font-roboto text-sm text-gray-300 text-center flex items-center gap-1">
+					<ClockIcon className="h-5 w-5" />
 					183d 21h 57m 30s
 				</div>
 			</div>
