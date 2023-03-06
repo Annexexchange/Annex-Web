@@ -12,35 +12,37 @@ const TopBar = () => {
 			<div className="flex items-center">
 				<img src={LogoImg} alt="Annex Exchange Logo" />
 			</div>
-			<div className="w-[35%] grid grid-cols-4 items-center justify-end gap-6">
-				<a
-					href="/"
-					className="hover:bg-purple-annex hover:rounded-3xl hover:text-white text-center p-3 font-roboto font-medium text-sm"
-				>
-					Home
-				</a>
-				<a
-					href="/"
-					className="hover:bg-purple-annex hover:rounded-3xl hover:text-white text-center p-3 font-roboto font-medium text-sm"
-				>
-					Live Market
-				</a>
-				<a
-					href="/"
-					className="hover:bg-purple-annex hover:rounded-3xl hover:text-white text-center p-3 font-roboto font-medium text-sm"
-				>
-					Trade
-				</a>
-				<a
-					href="/"
-					className="hover:bg-purple-annex hover:rounded-3xl hover:text-white text-center p-3 font-roboto font-medium text-sm"
-				>
-					Contact
-				</a>
-			</div>
-			<div className="flex flex-row gap-5">
-				<PurpleButton text={"Download App"} />
-				<Social />
+			<a
+				href="/"
+				className="hover:bg-purple-annex hover:rounded-3xl hover:text-white text-center p-3 font-roboto font-medium text-sm mx-10"
+			>
+				Home
+			</a>
+			<div className="flex flex-row items-center justify-end gap-2">
+				<div className="grid grid-cols-3 items-center justify-end gap-2">
+					<a
+						href="/"
+						className="hover:bg-purple-annex hover:rounded-3xl hover:text-white text-center p-3 font-roboto font-medium text-sm"
+					>
+						Live Market
+					</a>
+					<a
+						href="/"
+						className="hover:bg-purple-annex hover:rounded-3xl hover:text-white text-center p-3 font-roboto font-medium text-sm"
+					>
+						Trade
+					</a>
+					<a
+						href="/"
+						className="hover:bg-purple-annex hover:rounded-3xl hover:text-white text-center p-3 font-roboto font-medium text-sm"
+					>
+						Contact
+					</a>
+				</div>
+				<div className="flex flex-row gap-5">
+					<PurpleButton text={"Download App"} />
+					<Social />
+				</div>
 			</div>
 		</div>
 	);
