@@ -1,11 +1,11 @@
 import React from "react";
 import { ClockIcon } from "@heroicons/react/24/solid";
 
-import { BuyButton } from "./index";
+import { BuyButton } from "./Button";
 
 const TokenSalesCard = () => {
 	return (
-		<div className=" w-[45%] h-17 p-10 rounded-4xl bg-purple-900 flex flex-col justify-evenly items-center">
+		<div className=" w-[45%] h-17 p-10 rounded-5xl bg-purple-900 flex flex-col justify-evenly items-center">
 			<div className="font-roboto text-3xl font-bold text-white tracking-widest text-center">
 				Annex Token Sale
 			</div>

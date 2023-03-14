@@ -6,6 +6,8 @@ import Social from "./Social";
 import TransactionCard from "./TransactionCard";
 import Astronaut from "./Astronaut";
 import WhyCard from "./WhyCard";
+import ContactCard from "./ContactCard";
+import ContactForm from "./ContactForm";
 import { TransparentButton, PurpleButton, BuyButton } from "./Button";
 
 
@@ -18,6 +20,8 @@ export {
   TransactionCard,
   Astronaut,
   WhyCard,
+  ContactCard,
+  ContactForm,
   TransparentButton,
   PurpleButton,
   BuyButton

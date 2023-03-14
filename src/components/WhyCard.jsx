@@ -2,7 +2,7 @@ import React from "react";
 
 const WhyCard = () => {
 	return (
-		<div className="bg-white w-[98%] p-40 rounded-4xl flex-col flex gap-10 items-center justify-center">
+		<div className="bg-white w-[98%] p-40 rounded-5xl flex-col flex gap-10 items-center justify-center">
 			<div className=" flex flex-col gap-5">
 				<div className="font-roboto font-bold text-3xl tracking-wide text-slate-700 text-center">
 					Why Us

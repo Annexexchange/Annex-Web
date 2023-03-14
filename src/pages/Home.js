@@ -1,13 +1,15 @@
 import React from 'react'
-import { ChevronRightIcon } from '@heroicons/react/20/solid'
+import { ChevronRightIcon, ChevronUpIcon } from '@heroicons/react/20/solid'
+
+import ScrollToTop from 'react-scroll-to-top'
 
 import { BackroundImg, CoinImg } from '../assets'
 import { TransparentButton, PurpleButton, TopBar, TokenSalesCard, Footer, TransactionCard, Astronaut, WhyCard } from '../components'
 
-const View = () => {
+const Home = () => {
   return (
-    <div>
-      <div className='relative -z'>
+    <div className='relative'>
+      <div className='relative'>
         <img src={BackroundImg} alt="Background" />
 
         <div className='absolute top-0 w-full'>
@@ -37,7 +39,7 @@ const View = () => {
         </div>
       </div>
 
-      <div className='rounded-t-4xl bg-purple-100 z-10 flex flex-col gap-10 p-12 items-center justify-center'>
+      <div className='absolute top-[88%] rounded-t-5xl bg-purple-100 flex flex-col gap-10 p-12 items-center justify-center'>
         <div className='flex flex-row gap-5 px-24 justify-center' id='AboutUs'>
           <div className='w-1/2 flex items-center justify-center'>
             <Astronaut />
@@ -77,9 +79,16 @@ const View = () => {
         <TokenSalesCard />
 
         <Footer />
+
+        <ScrollToTop
+          smooth
+          top={100}
+          component={<ChevronUpIcon className='h-10 w-10 text-white' />}
+          className='!bg-purple-annex !p-2 !rounded-full !flex !items-center !justify-center !animate-bounce !transition !ease-in-out !delay-150 hover:!-translate-y-1 hover:!scale-110 !duration-500'
+        />
       </div >
-    </div >
+    </div>
   )
 }
 
-export default View
+export default Home

@@ -1,43 +1,47 @@
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
+import { ChevronDownIcon } from "@heroicons/react/20/solid";
 
 import { LogoImg } from "../assets";
-import { PurpleButton, Social } from "./index";
+import { PurpleButton } from "./Button";
+import Social from "./Social";
 
 const TopBar = () => {
 	// eslint-disable-next-line
 	const [active, setActive] = useState(false);
 
 	return (
-		<div className="bg-white h-24 rounded-2xl font-roboto my-2 mx-5 flex flex-row gap-16 justify-center items-center">
-			<div className="flex items-center">
+		<div className="bg-white h-24 rounded-4xl font-roboto my-2 mx-3 flex flex-row gap-16 justify-center items-center">
+			<Link to="/" className="flex items-center">
 				<img src={LogoImg} alt="Annex Exchange Logo" />
-			</div>
-			<a
-				href="/"
-				className="hover:bg-purple-annex hover:rounded-3xl hover:text-white text-center p-3 font-roboto font-medium text-sm mx-10"
-			>
-				Home
-			</a>
-			<div className="flex flex-row items-center justify-end gap-2">
-				<div className="grid grid-cols-3 items-center justify-end gap-2">
-					<a
-						href="/"
-						className="hover:bg-purple-annex hover:rounded-3xl hover:text-white text-center p-3 font-roboto font-medium text-sm"
+			</Link>
+			<div className="flex flex-row items-center justify-end gap-10">
+				<div className="grid grid-cols-4 items-center justify-end gap-2">
+					<Link
+						to="/"
+						className="hover:bg-purple-annex hover:rounded-3xl hover:text-white duration-300 text-center p-3 font-roboto font-medium text-sm"
+					>
+						Home
+					</Link>
+					<Link
+						to="/"
+						className="hover:bg-purple-annex hover:rounded-3xl hover:text-white duration-300 text-center p-3 font-roboto font-medium text-sm"
 					>
 						Live Market
-					</a>
-					<a
-						href="/"
-						className="hover:bg-purple-annex hover:rounded-3xl hover:text-white text-center p-3 font-roboto font-medium text-sm"
+					</Link>
+					<Link
+						to="/trade"
+						className="hover:bg-purple-annex hover:rounded-3xl hover:text-white duration-300 text-center p-3 font-roboto font-medium text-sm flex items-center justify-center"
 					>
-						Trade
-					</a>
-					<a
-						href="/"
-						className="hover:bg-purple-annex hover:rounded-3xl hover:text-white text-center p-3 font-roboto font-medium text-sm"
+						Trade{" "}
+						<ChevronDownIcon className="h-5 w-5 hover:text-white font-medium" />
+					</Link>
+					<Link
+						to="/contact"
+						className="hover:bg-purple-annex hover:rounded-3xl hover:text-white duration-300 text-center p-3 font-roboto font-medium text-sm"
 					>
 						Contact
-					</a>
+					</Link>
 				</div>
 				<div className="flex flex-row gap-5">
 					<PurpleButton text={"Download App"} />

@@ -7,6 +7,7 @@ import DiscordImg from './discord.png'
 import FacebookImg from './facebook.png'
 import InstagramImg from './instagram.png'
 import LinkedInImg from './linkedin.png'
+import ClockImg from './clock.png'
 
 export {
   BackroundImg,
@@ -17,5 +18,6 @@ export {
   DiscordImg,
   FacebookImg,
   InstagramImg,
-  LinkedInImg
+  LinkedInImg,
+  ClockImg
 }
