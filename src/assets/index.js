@@ -1,4 +1,5 @@
-import BackroundImg from './background.png'
+import BackgroundImg from './background.png'
+import BackgroundMobileImg from './backgroundMobile.png'
 import CoinImg from './coin.png'
 import LogoImg from './logo.png'
 import AnnexImg from './annexicon.png'
@@ -10,7 +11,8 @@ import LinkedInImg from './linkedin.png'
 import ClockImg from './clock.png'
 
 export {
-  BackroundImg,
+  BackgroundImg,
+  BackgroundMobileImg,
   CoinImg,
   LogoImg,
   AnnexImg,

@@ -16,10 +16,10 @@ module.exports = {
         '5xl': '2.5rem',
       },
       height: {
-        17: '272px'
+        68: '272px'
       },
       width: {
-        17: '272px'
+        68: '272px'
       },
       lineHeight: {
         1: '0.25rem'

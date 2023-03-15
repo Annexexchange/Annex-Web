@@ -39,7 +39,7 @@ const ContactForm = () => {
 				</span>
 				<a
 					href="/"
-					className="bg-purple-100 rounded-5xl p-1 absolute right-14 bottom-0 translate-y-7 translate-x-3"
+					className="bg-purple-100 rounded-5xl p-1 absolute right-14 bottom-0 translate-y-3 translate-x-7 md:translate-y-7 md:translate-x-3"
 				>
 					<div className="bg-purple-annex font-roboto font-medium text-sm text-white rounded-5xl py-3 px-5">
 						Submit

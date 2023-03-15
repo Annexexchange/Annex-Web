@@ -4,7 +4,7 @@ const TransparentButton = ({ text }) => {
 	return (
 		<a
 			href="/"
-			className="font-roboto text-white text-xs bg-transparent py-4 px-10 h-fit w-fit rounded-5xl items-center justify-center border-white border-2 tracking-wider cursor-pointer"
+			className="font-roboto text-white text-xs bg-transparent p-3 md:py-4 md:px-10 h-fit w-fit rounded-2xl md:rounded-5xl items-center justify-center border-white border-2 tracking-wider cursor-pointer"
 		>
 			{text}
 		</a>
@@ -15,7 +15,7 @@ const PurpleButton = ({ text }) => {
 	return (
 		<a
 			href="/"
-			className="font-roboto text-white text-xs bg-purple-annex py-5 px-10 h-fit w-fit rounded-5xl items-center justify-center tracking-wider cursor-pointer"
+			className="font-roboto text-white text-xs bg-purple-annex p-4 md:py-5 md:px-10 h-fit w-fit rounded-2xl md:rounded-5xl items-center justify-center tracking-wider cursor-pointer"
 		>
 			{text}
 		</a>

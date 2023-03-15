@@ -4,6 +4,7 @@ import { createBrowserRouter, createRoutesFromElements, Route, RouterProvider } 
 import Home from './pages/Home'
 import Contact from './pages/Contact'
 import Trade from './pages/Trade'
+import LiveMarket from './pages/LiveMarket'
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
         <Route index element={<Home />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/trade" element={<Trade />} />
+        <Route path="/livemarket" element={<LiveMarket />} />
       </Route>
     )
   )
