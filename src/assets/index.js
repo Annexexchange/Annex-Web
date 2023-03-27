@@ -5,6 +5,7 @@ import LogoImg from './logo.png'
 import AnnexImg from './annexicon.png'
 import AstronautImg from './Astronaut.png'
 import DiscordImg from './discord.png'
+import TwitterImg from './twitter.png'
 import FacebookImg from './facebook.png'
 import InstagramImg from './instagram.png'
 import LinkedInImg from './linkedin.png'
@@ -18,6 +19,7 @@ export {
   AnnexImg,
   AstronautImg,
   DiscordImg,
+  TwitterImg,
   FacebookImg,
   InstagramImg,
   LinkedInImg,

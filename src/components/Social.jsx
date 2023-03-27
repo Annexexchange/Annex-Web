@@ -1,21 +1,21 @@
 import React from "react";
 
-import { DiscordImg, FacebookImg, InstagramImg, LinkedInImg } from "../assets";
+import { DiscordImg, TwitterImg, InstagramImg, LinkedInImg } from "../assets";
 
 const Social = ({ background }) => {
 	return (
 		<div className="flex flex-row gap-5 items-center justify-start">
 			<a
-				href="/"
+				href="https://twitter.com/annexexchangeme?t=UHaflT7WScrHXQFDVf3ArQ&s=09"
 				target="_blank"
 				rel="noopener noreferrer"
 				className={background && "p-2 rounded-full bg-slate-300"}
 			>
-				<img src={FacebookImg} alt="Facebook" className="h-6 w-6" />
+				<img src={TwitterImg} alt="Facebook" className="h-6 w-6" />
 			</a>
 
 			<a
-				href="/"
+				href="https://instagram.com/annexexchangeme?igshid=MjljNjAzYmU="
 				target="_blank"
 				rel="noopener noreferrer"
 				className={background && "p-2 rounded-full bg-slate-300"}
@@ -24,7 +24,7 @@ const Social = ({ background }) => {
 			</a>
 
 			<a
-				href="/"
+				href="https://www.linkedin.com/mwlite/company/annex-exchange"
 				target="_blank"
 				rel="noopener noreferrer"
 				className={background && "p-2 rounded-full bg-slate-300"}
@@ -33,7 +33,7 @@ const Social = ({ background }) => {
 			</a>
 
 			<a
-				href="/"
+				href="https://discord.gg/a6BpfGY8D4"
 				target="_blank"
 				rel="noopener noreferrer"
 				className={background && "p-2 rounded-full bg-slate-300"}
