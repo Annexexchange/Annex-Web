@@ -1,15 +1,18 @@
-import BackgroundImg from './background.png'
-import BackgroundMobileImg from './backgroundMobile.png'
-import CoinImg from './coin.png'
-import LogoImg from './logo.png'
-import AnnexImg from './annexicon.png'
-import AstronautImg from './Astronaut.png'
-import DiscordImg from './discord.png'
-import TwitterImg from './twitter.png'
-import FacebookImg from './facebook.png'
-import InstagramImg from './instagram.png'
-import LinkedInImg from './linkedin.png'
-import ClockImg from './clock.png'
+import BackgroundImg from './img/background.png'
+import BackgroundMobileImg from './img/backgroundMobile.png'
+import CoinImg from './img/coin.png'
+import LogoImg from './img/logo.png'
+import AnnexImg from './img/annexicon.png'
+import AstronautImg from './img/Astronaut.png'
+import DiscordImg from './img/discord.png'
+import TwitterImg from './img/twitter.png'
+import FacebookImg from './img/facebook.png'
+import InstagramImg from './img/instagram.png'
+import LinkedInImg from './img/linkedin.png'
+import ClockImg from './img/clock.png'
+
+import AnnexRoadmap from './docs/AnnexRoadmap.pdf'
+import AnnexMiner from './docs/AnnexMiner.pdf'
 
 export {
   BackgroundImg,
@@ -23,5 +26,8 @@ export {
   FacebookImg,
   InstagramImg,
   LinkedInImg,
-  ClockImg
+  ClockImg,
+
+  AnnexMiner,
+  AnnexRoadmap
 }

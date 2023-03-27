@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import { ChevronRightIcon, ChevronUpIcon, ChevronDownIcon } from '@heroicons/react/20/solid'
 import ScrollToTop from 'react-scroll-to-top'
 
-import { BackgroundMobileImg, BackgroundImg, CoinImg } from '../assets'
+import { BackgroundMobileImg, BackgroundImg, CoinImg, AnnexRoadmap } from '../assets'
 import { TransparentButton, PurpleButton, TopBar, TokenSalesCard, Footer, TransactionCard, Astronaut, WhyCard } from '../components'
 
 const Home = () => {
@@ -33,7 +33,7 @@ const Home = () => {
                 </div>
                 <div className='flex flex-row gap-4 justify-center md:justify-start'>
                   <PurpleButton text='Download App' />
-                  <TransparentButton text='Download PDF' />
+                  <TransparentButton text='Download RoadMap' download={true} downloadFile={AnnexRoadmap} />
                 </div>
               </div>
 

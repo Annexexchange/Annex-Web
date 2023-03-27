@@ -1,9 +1,10 @@
 import React from "react";
 
-const TransparentButton = ({ text }) => {
+const TransparentButton = ({ text, download, downloadFile }) => {
 	return (
 		<a
-			href="/"
+			href={downloadFile}
+			download={download}
 			className="font-roboto text-white text-xs bg-transparent p-3 md:py-4 md:px-10 h-fit w-fit rounded-2xl md:rounded-5xl items-center justify-center border-white border-2 tracking-wider cursor-pointer"
 		>
 			{text}
