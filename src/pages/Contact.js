@@ -14,8 +14,8 @@ const Contact = () => {
   return (
     <div className='z-0'>
       <div className='relative'>
-        <img src={BackgroundImg} alt="Background" className='hidden md:flex w-screen' />
-        <img src={BackgroundMobileImg} alt="Background" className='md:hidden w-screen h-screen bg-contain' />
+        <img src={BackgroundImg} alt="Background" className='hidden md:flex w-screen bg-cover' />
+        <img src={BackgroundMobileImg} alt="Background" className='md:hidden w-screen h-screen bg-cover' />
 
         <div className='absolute top-0'>
           <TopBar showMobileNav={showMobileNav} setShowMobileNav={setShowMobileNav} contact />

@@ -14,15 +14,15 @@ const Trade = () => {
   return (
     <div className='z-0'>
       <div className='relative'>
-        <img src={BackgroundImg} alt="Background" className='hidden md:flex w-screen h-full' />
-        <img src={BackgroundMobileImg} alt="Background" className='md:hidden w-screen h-screen bg-contain' />
+        <img src={BackgroundImg} alt="Background" className='hidden md:flex w-screen bg-cover' />
+        <img src={BackgroundMobileImg} alt="Background" className='md:hidden w-screen h-screen bg-covers' />
 
         <div className='absolute top-0'>
           <TopBar showMobileNav={showMobileNav} setShowMobileNav={setShowMobileNav} trade />
 
           <div className=''>
             <div className="h-2/3 flex flex-col items-center gap-5 md:gap-10 m-10 justify-between self-center">
-              <div className='text-white font-roboto font-medium md:font-bold text-2xl md:text-4xl'>Token Sales Countdown</div>
+              <div className='text-white text-center font-roboto font-medium md:font-bold text-2xl md:text-4xl'>Token Sales Countdown</div>
               <div className='md:relative flex flex-row md:flex-col items-center justify-between md:justify-center'>
                 <img src={ClockImg} alt="clock icon" className='hidden md:block' />
                 <ClockIcon className='h-10 w-10 text-slate-300 md:hidden' />

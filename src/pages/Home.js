@@ -14,8 +14,8 @@ const Home = () => {
   return (
     <div className='z-0'>
       <div className='relative'>
-        <img src={BackgroundImg} alt="Background" className='hidden md:flex w-screen' />
-        <img src={BackgroundMobileImg} alt="Background" className='md:hidden w-screen h-screen bg-contain' />
+        <img src={BackgroundImg} alt="Background" className='hidden md:flex w-screen bg-cover' />
+        <img src={BackgroundMobileImg} alt="Background" className='md:hidden w-screen h-screen bg-cover' />
 
         <div className='absolute top-0'>
           <TopBar showMobileNav={showMobileNav} setShowMobileNav={setShowMobileNav} home />
@@ -50,7 +50,7 @@ const Home = () => {
                 <div className='w-full md:w-1/2 flex flex-col gap-2 md:gap-4'>
                   <div className='flex flex-col items-center gap-4 py-5 rounded-2xl bg-slate-400 md:bg-transparent'>
                     <div className='font-roboto font-bold text-3xl tracking-widest text-white md:text-slate-700'>About Us</div>
-                    <div className='font-roboto font-normal text-xs tracking-widest text-white md:text-slate-600'>The Most Trusted Cryptocurrency Platform</div>
+                    <div className='font-roboto font-normal text-xs tracking-widest text-white text-center md:text-slate-600'>The Most Trusted Cryptocurrency Platform</div>
                   </div>
                   <div className='text-justify font-roboto font-normal text-xs tracking-widest text-slate-600 mt-5'>
                     Here at Annex, we are committed to user protection with strict protocols and
@@ -62,19 +62,19 @@ const Home = () => {
                     Stay in the know with our app and desktop client.
                   </div>
                   <div className='flex flex-col gap-2 md:gap-6'>
-                    <div className='font-roboto font-normal text-xs tracking-widest text-slate-600 flex flex-row items-stretch text-justify'>
+                    <div className='font-roboto font-normal text-xs tracking-widest text-slate-600 flex flex-row items-start text-justify'>
                       <ChevronRightIcon className='h-4 w-4 text-purple-annex' />
                       <div className='w-[90%]'>
                         Get 24/7 chat support with our friendly customer service agents at your service
                       </div>
                     </div>
-                    <div className='font-roboto font-normal text-xs tracking-widest text-slate-600 flex flex-row items-center text-justify'>
+                    <div className='font-roboto font-normal text-xs tracking-widest text-slate-600 flex flex-row items-start text-justify'>
                       <ChevronRightIcon className='h-4 w-4 text-purple-annex' />
                       <div className='w-[90%]'>
                         Stay up to date with the latest stories and commentary
                       </div>
                     </div>
-                    <div className='font-roboto font-normal text-xs tracking-widest text-slate-600 flex flex-row items-center text-justify'>
+                    <div className='font-roboto font-normal text-xs tracking-widest text-slate-600 flex flex-row items-start text-justify'>
                       <ChevronRightIcon className='h-4 w-4 text-purple-annex' />
                       <div className='w-[90%]'>
                         Simple & Secure. Search popular coins and start earning
