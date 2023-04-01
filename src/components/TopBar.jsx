@@ -12,7 +12,7 @@ import Social from "./Social";
 
 const TopBar = ({ showMobileNav, setShowMobileNav }) => {
 	return (
-		<div className="z-0 bg-slate-50 md:bg-white md:h-24 md:rounded-4xl font-roboto md:my-2 p-7 md:mx-3 flex flex-row md:gap-16 justify-between md:justify-center items-center">
+		<div className="z-0 bg-slate-50 md:bg-white md:h-24 rounded-b-3xl md:rounded-b-4xl font-roboto md:m-0 p-7 flex flex-row md:gap-16 justify-between md:justify-center items-center transition">
 			<Link to="/" className="flex items-center w-28">
 				<img src={LogoImg} alt="Annex Exchange Logo" />
 			</Link>
