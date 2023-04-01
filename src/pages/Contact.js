@@ -18,7 +18,7 @@ const Contact = () => {
         <img src={BackgroundMobileImg} alt="Background" className='md:hidden w-screen h-screen bg-contain' />
 
         <div className='absolute top-0'>
-          <TopBar showMobileNav={showMobileNav} setShowMobileNav={setShowMobileNav} />
+          <TopBar showMobileNav={showMobileNav} setShowMobileNav={setShowMobileNav} contact />
 
           <div className=''>
             <div>

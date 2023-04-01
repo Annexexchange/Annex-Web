@@ -14,11 +14,11 @@ const Trade = () => {
   return (
     <div className='z-0'>
       <div className='relative'>
-        <img src={BackgroundImg} alt="Background" className='hidden md:flex w-screen' />
+        <img src={BackgroundImg} alt="Background" className='hidden md:flex w-screen h-full' />
         <img src={BackgroundMobileImg} alt="Background" className='md:hidden w-screen h-screen bg-contain' />
 
         <div className='absolute top-0'>
-          <TopBar showMobileNav={showMobileNav} setShowMobileNav={setShowMobileNav} />
+          <TopBar showMobileNav={showMobileNav} setShowMobileNav={setShowMobileNav} trade />
 
           <div className=''>
             <div className="h-2/3 flex flex-col items-center gap-5 md:gap-10 m-10 justify-between self-center">

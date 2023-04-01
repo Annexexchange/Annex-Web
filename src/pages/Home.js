@@ -18,7 +18,7 @@ const Home = () => {
         <img src={BackgroundMobileImg} alt="Background" className='md:hidden w-screen h-screen bg-contain' />
 
         <div className='absolute top-0'>
-          <TopBar showMobileNav={showMobileNav} setShowMobileNav={setShowMobileNav} />
+          <TopBar showMobileNav={showMobileNav} setShowMobileNav={setShowMobileNav} home />
 
           <div className=''>
             <div className='flex md:flex-row md:justify-around md:px-10 md:pt-16'>
@@ -62,17 +62,23 @@ const Home = () => {
                     Stay in the know with our app and desktop client.
                   </div>
                   <div className='flex flex-col gap-2 md:gap-6'>
-                    <div className='font-roboto font-normal text-xs tracking-widest text-slate-600 flex flex-row items-center text-justify'>
-                      <ChevronRightIcon className='h-5 w-5 text-purple-annex' />
-                      Get 24/7 chat support with our friendly customer service agents at your service
+                    <div className='font-roboto font-normal text-xs tracking-widest text-slate-600 flex flex-row items-stretch text-justify'>
+                      <ChevronRightIcon className='h-4 w-4 text-purple-annex' />
+                      <div className='w-[90%]'>
+                        Get 24/7 chat support with our friendly customer service agents at your service
+                      </div>
                     </div>
                     <div className='font-roboto font-normal text-xs tracking-widest text-slate-600 flex flex-row items-center text-justify'>
-                      <ChevronRightIcon className='h-5 w-5 text-purple-annex' />
-                      Stay up to date with the latest stories and commentary
+                      <ChevronRightIcon className='h-4 w-4 text-purple-annex' />
+                      <div className='w-[90%]'>
+                        Stay up to date with the latest stories and commentary
+                      </div>
                     </div>
                     <div className='font-roboto font-normal text-xs tracking-widest text-slate-600 flex flex-row items-center text-justify'>
-                      <ChevronRightIcon className='h-5 w-5 text-purple-annex' />
-                      Simple & Secure. Search popular coins and start earning
+                      <ChevronRightIcon className='h-4 w-4 text-purple-annex' />
+                      <div className='w-[90%]'>
+                        Simple & Secure. Search popular coins and start earning
+                      </div>
                     </div>
                   </div>
                 </div>

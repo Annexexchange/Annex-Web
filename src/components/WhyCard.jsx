@@ -11,9 +11,9 @@ const WhyCard = () => {
 					The Best in the crypto Industry
 				</div>
 			</div>
-			<div className="flex flex-col items-center gap-10 md:grid md:grid-cols-3 md:gap-20">
-				<div className="flex flex-col gap-2 items-center">
-					<div className="font-roboto font-medium md:font-normal text-sm text-slate-800 md:text-slate-700 leading-1">
+			<div className="flex flex-col items-start gap-10 md:grid md:grid-cols-3 md:gap-20">
+				<div className="flex flex-col gap-2 items-center justify-start">
+					<div className="font-roboto font-medium md:font-bold text-sm text-slate-800 md:text-slate-700 leading-1">
 						Easy To Start
 					</div>
 					<div className="font-roboto font-normal text-sm text-center md:text-justify text-slate-500 md:text-slate-700">
@@ -22,8 +22,8 @@ const WhyCard = () => {
 						offer.
 					</div>
 				</div>
-				<div className="flex flex-col gap-2 items-center">
-					<div className="font-roboto font-medium md:font-normal text-sm text-slate-800 md:text-slate-700 leading-1">
+				<div className="flex flex-col gap-2 items-center justify-start">
+					<div className="font-roboto font-medium md:font-bold text-sm text-slate-800 md:text-slate-700 leading-1">
 						Safe & Secure
 					</div>
 					<div className="font-roboto font-normal text-sm text-center md:text-justify text-slate-500 md:text-slate-700">
@@ -32,16 +32,16 @@ const WhyCard = () => {
 						personal information.
 					</div>
 				</div>
-				<div className="flex flex-col gap-2 items-center">
-					<div className="font-roboto font-medium md:font-normal text-sm text-slate-800 md:text-slate-700 leading-1">
+				<div className="flex flex-col gap-2 items-center justify-start">
+					<div className="font-roboto font-medium md:font-bold text-sm text-slate-800 md:text-slate-700 leading-1">
 						Affordable Plans
 					</div>
 					<div className="font-roboto font-normal text-sm text-center md:text-justify text-slate-500 md:text-slate-700">
 						Trade on the go. Anywhere and anytime.
 					</div>
 				</div>
-				<div className="flex flex-col gap-2 items-center">
-					<div className="font-roboto font-medium md:font-normal text-sm text-slate-800 md:text-slate-700 leading-1">
+				<div className="flex flex-col gap-2 items-center justify-start">
+					<div className="font-roboto font-medium md:font-bold text-sm text-slate-800 md:text-slate-700 leading-1">
 						Secure Storage
 					</div>
 					<div className="font-roboto font-normal text-sm text-center md:text-justify text-slate-500 md:text-slate-700">
@@ -49,8 +49,8 @@ const WhyCard = () => {
 						addresses that can access your account, for greater ease of mind.
 					</div>
 				</div>
-				<div className="flex flex-col gap-2 items-center">
-					<div className="font-roboto font-medium md:font-normal text-sm text-slate-800 md:text-slate-700 leading-1">
+				<div className="flex flex-col gap-2 items-center justify-start">
+					<div className="font-roboto font-medium md:font-bold text-sm text-slate-800 md:text-slate-700 leading-1">
 						Protected By Insurance
 					</div>
 					<div className="font-roboto font-normal text-sm text-center md:text-justify text-slate-500 md:text-slate-700">
@@ -58,8 +58,8 @@ const WhyCard = () => {
 						fees in a secure asset fund to protect a share of user funds.
 					</div>
 				</div>
-				<div className="flex flex-col gap-2 items-center">
-					<div className="font-roboto font-medium md:font-normal text-sm text-slate-800 md:text-slate-700 leading-1">
+				<div className="flex flex-col gap-2 items-center justify-start">
+					<div className="font-roboto font-medium md:font-bold text-sm text-slate-800 md:text-slate-700 leading-1">
 						24/7 Support
 					</div>
 					<div className="font-roboto font-normal text-sm text-center md:text-justify text-slate-500 md:text-slate-700">

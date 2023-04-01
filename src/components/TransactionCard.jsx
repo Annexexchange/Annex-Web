@@ -2,7 +2,7 @@ import React from "react";
 
 const TransactionCard = () => {
 	return (
-		<div className="bg-white w-[65%] md:w-[75%] p-10 md:p-16 rounded-3xl md:rounded-5xl flex flex-col gap-3 md:gap-5 shadow-2xl shadow-black">
+		<div className="bg-white w-[70%] md:w-[75%] item-center justify-center p-5 md:p-16 rounded-3xl md:rounded-5xl flex flex-col gap-3 md:gap-5 shadow-2xl shadow-black">
 			<div className="font-roboto font-bold text-2xl md:text-3xl tracking-wide text-slate-700 text-center">
 				Transactions
 			</div>

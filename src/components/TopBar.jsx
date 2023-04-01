@@ -10,9 +10,16 @@ import { LogoImg } from "../assets";
 import { PurpleButton } from "./Button";
 import Social from "./Social";
 
-const TopBar = ({ showMobileNav, setShowMobileNav }) => {
+const TopBar = ({
+	showMobileNav,
+	setShowMobileNav,
+	home,
+	market,
+	trade,
+	contact,
+}) => {
 	return (
-		<div className="z-0 bg-slate-50 md:bg-white md:h-24 rounded-b-3xl md:rounded-4xl font-roboto md:my-2 p-7 md:mx-3 flex flex-row md:gap-16 justify-between md:justify-center items-center">
+		<div className="z-0 bg-slate-50 md:bg-white md:h-24 rounded-b-3xl md:rounded-b-4xl font-roboto p-7 md:m-0 flex flex-row md:gap-16 justify-between md:justify-center items-center">
 			<Link to="/" className="flex items-center w-28">
 				<img src={LogoImg} alt="Annex Exchange Logo" />
 			</Link>
@@ -20,26 +27,42 @@ const TopBar = ({ showMobileNav, setShowMobileNav }) => {
 				<div className="grid grid-cols-4 items-center justify-end gap-2">
 					<Link
 						to="/"
-						className="hover:bg-purple-annex hover:rounded-3xl hover:text-white duration-300 text-center p-3 font-roboto font-medium text-sm"
+						className={
+							home
+								? "bg-purple-annex rounded-3xl text-white duration-300 text-center p-3 font-roboto font-medium text-sm"
+								: "hover:bg-purple-annex hover:rounded-3xl hover:text-white duration-300 text-center p-3 font-roboto font-medium text-sm"
+						}
 					>
 						Home
 					</Link>
 					<Link
 						to="/livemarket"
-						className="hover:bg-purple-annex hover:rounded-3xl hover:text-white duration-300 text-center p-3 font-roboto font-medium text-sm"
+						className={
+							market
+								? "bg-purple-annex rounded-3xl text-white duration-300 text-center p-3 font-roboto font-medium text-sm"
+								: "hover:bg-purple-annex hover:rounded-3xl hover:text-white duration-300 text-center p-3 font-roboto font-medium text-sm"
+						}
 					>
 						Live Market
 					</Link>
 					<Link
 						to="/trade"
-						className="hover:bg-purple-annex hover:rounded-3xl hover:text-white duration-300 text-center p-3 font-roboto font-medium text-sm flex items-center justify-center"
+						className={
+							trade
+								? "bg-purple-annex rounded-3xl text-white duration-300 text-center p-3 font-roboto font-medium text-sm flex items-center justify-center"
+								: "hover:bg-purple-annex hover:rounded-3xl hover:text-white duration-300 text-center p-3 font-roboto font-medium text-sm flex items-center justify-center"
+						}
 					>
 						Trade{" "}
 						<ChevronDownIcon className="h-5 w-5 hover:text-white font-medium" />
 					</Link>
 					<Link
 						to="/contact"
-						className="hover:bg-purple-annex hover:rounded-3xl hover:text-white duration-300 text-center p-3 font-roboto font-medium text-sm"
+						className={
+							contact
+								? "bg-purple-annex rounded-3xl text-white duration-300 text-center p-3 font-roboto font-medium text-sm"
+								: "hover:bg-purple-annex hover:rounded-3xl hover:text-white duration-300 text-center p-3 font-roboto font-medium text-sm"
+						}
 					>
 						Contact
 					</Link>
